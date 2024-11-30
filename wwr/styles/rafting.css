@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #4267aa;
+    --secondary-color: #becbe2;
+    --accent-1-color: #ffffff;
+    --accent-2-color: #967d69;
+    --font-1: 'Roboto Flex', serif;
+    --font-2: 'DM Serif Text', serif;
+}
+
+html {
+    padding: 150px;
+    background-color: var(--secondary-color);
+}
+
+body {
+    background-color: var(--accent-1-color);
+}
+.social {
+    text-decoration: none;
+    
+}
+
+
+.hero {
+    padding: 0px 100px 100px 100px;
+    position: relative;
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+header img {
+    height: 120px;
+}
+
+h1 {
+    position: absolute;
+    color: var(--primary-color);
+    top: 50px;
+    width: 87%;
+    
+    background-color: rgba(255, 255, 255, 0.75);
+    font-size: 50px;
+    font-family: var(--font-1);
+}
+
+article {
+    position: absolute;
+    
+    top: 50%;
+    transform: translate(0%, -50%);
+    
+    width: 87%;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: var(--accent-2-color);
+}
+
+article img {
+    float: right;
+    width: 350px;
+    height: auto;
+    
+}
+
+
+
+.adventure-awaits {
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.adventure-awaits img {
+    padding: 10px;
+}
+
+
+
+
+
+footer {
+    padding-left: 100px;
+    font-family: var(--font-2);
+    color: var(--accent-2-color);
+}
+
+#hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+header {
+    padding: 100px 100px 0px 100px;
+    
+}
+
+.main-menu a {
+    text-decoration: none;
+    
+    font-family: var(--font-2);
+    color: var(--accent-2-color);
+}
+.main-menu {
+    padding: 10px 0px 10px 0px;
+    
+}
+
+
+
+.history {
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+
+h2 {
+    color: var(--primary-color);
+    font-family: var(--font-1);
+}
+
+.history p {
+    font-family: var(--font-2);
+    color: var(--accent-2-color);
+}
